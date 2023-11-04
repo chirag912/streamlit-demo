@@ -14,7 +14,7 @@ data = {
 }
 df = pd.DataFrame(data)
 
-st.title('Air Quality Visualization App')
+st.title('Air Quality Visualization Application')
 
 # Sidebar with user inputs
 selected_city = st.sidebar.selectbox('Select a City:', df['City'])
